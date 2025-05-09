@@ -122,16 +122,42 @@
 
 ## 7. Repository Structure (Git - Example)
 
-.├── .github/              # GitHub specific files (e.g., issue templates, workflows)├── docs/                 # Detailed documentation, guides├── prompts/              # Library of default prompts│   ├── generic/│   │   └── general_queries.md│   └── systems/│       ├── dnd5e_srd/│       │   └── combat_rules.md│       └── [other_system]/├── scripts/              # Helper scripts (e.g., for batch processing, testing)├── src/                  # Core Python source code│   ├── main.py           # CLI entry point│   ├── core/             # Core RAG pipeline logic│   │   ├── ingestion.py│   │   ├── chunking.py│   │   ├── embedding.py│   │   └── qa.py│   └── utils/            # Utility functions├── tests/                # Unit tests, integration tests├── .gitignore├── CONTRIBUTING.md├── LICENSE               # Choose an open-source license (e.g., MIT, Apache 2.0)├── README.md└── requirements.txt      # Python dependencies
+```
+├── .github/              # GitHub specific files (e.g., issue templates, workflows)
+├── docs/                 # Detailed documentation, guides
+├── prompts/              # Library of default prompts
+│   ├── generic/
+│   │   └── general_queries.md
+│   └── systems/
+│       ├── dnd5e_srd/
+│       │   └── combat_rules.md
+│       └── [other_system]/
+├── scripts/              # Helper scripts (e.g., for batch processing, testing)
+├── src/                  # Core Python source code
+│   ├── main.py           # CLI entry point
+│   ├── core/             # Core RAG pipeline logic
+│   │   ├── ingestion.py
+│   │   ├── chunking.py
+│   │   ├── embedding.py
+│   │   └── qa.py
+│   └── utils/            # Utility functions
+├── tests/                # Unit tests, integration tests
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE               # Choose an open-source license (e.g., MIT, Apache 2.0)
+├── README.md
+└── requirements.txt      # Python dependencies
+```
+
 ## 8. Contribution Guidelines
 
 * A `CONTRIBUTING.md` file will detail:
-    * How to set up the development environment.
-    * Coding standards (e.g., linting, formatting).
-    * How to submit issues and pull requests.
-    * Process for proposing new features or changes.
-    * Guidelines for adding new RPG system support and prompts.
-    * Code of Conduct.
+* How to set up the development environment.
+* Coding standards (e.g., linting, formatting).
+* How to submit issues and pull requests.
+* Process for proposing new features or changes.
+* Guidelines for adding new RPG system support and prompts.
+* Code of Conduct.
 
 ## 9. Community & Communication
 
